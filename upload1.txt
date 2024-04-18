@@ -1,0 +1,3 @@
+Hello. This is a test text file. Just for testing the EDFS file system.
+Writing into partition function and checking if put works for text files.
+Hello World.

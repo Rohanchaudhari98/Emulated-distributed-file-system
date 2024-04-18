@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/formstyle.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/formstyle.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="static/images/icon.png">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/formstyle.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>EDFS</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="/mkdir">
+            <h2>Enter EDFS command</h2>
+            Enter command: <input type="text" id="makedirectory" name="mkdir" placeholder="Enter EDFS command" autofocus=""/><br><br>
+            Enter filename/directory name: <input type="text" id="filename" name="filename" placeholder="Enter Filename" autofocus=""/><br><br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>
